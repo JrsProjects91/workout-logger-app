@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.main-workout-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.main-workout-container-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout-container {
+    background-color: aquamarine;
+    border: 3px solid rgba(82, 165, 137, 0.585);
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.edit-buttons-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    gap: 3px;
+}
+
+.edit-buttons-container > * {
+    text-align: center;
+}
+
+.date {
+    padding-bottom: 5px;
+}
+
+.workout-type {
+    /* background-color: rgb(255, 204, 127);
+    border: 3px solid rgba(116, 84, 57, 0.585);
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 4px; */
+}
+
+.sets-container > * {
+    padding: 5px;
+}
+
+.set-container-bottom {
+    gap: 5px;
+}
+
+.workout-container-top {
+    display: flex;
+    justify-content: center;
+}
+
+.set-container-bottom {
+    display: flex;
+}
+
+.back-button {
+    background-color: rgb(181, 255, 149);
+    border: 3px solid rgba(82, 165, 137, 0.585);;
+}
+
+.workout-type {
+    font-size: larger;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
